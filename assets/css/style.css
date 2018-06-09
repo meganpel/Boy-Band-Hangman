@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+html {
+    position: relative;
+    min-height: 100%;
+    padding: 5px 20px 5px 20px;
+    background-color: lightblue;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color:  #ff0000;
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #0a0074;
+    border-radius: 20px;
+}
+
+.display-4 {
+    color: #a39999;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.lead {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #00ffdf;
+}
+
+.btn-primary {
+    background-color: #0a0074!important;
+    border-color: #0a0074!important;
+    font-size: 16px!important;
+    padding: 15px;
+    margin: 5px 20px 5px 20px;
+}
+
+.puzzleseg {
+    color: #0a0074;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.puzzledash {
+    color: #00ffdf;
+    font-size: 45px;
+}
+
+.scoretracker {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #303030;
+    font-size: 20px;
+}
+
+.list-group {
+    padding:0px 15px 10px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8em;
+    white-space: nowrap;
+    font-size: 12vw;
+    z-index: 1000;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    -moz-transform: skew(0, -6.7deg);
+    -ms-transform: skew(0, -6.7deg);
+    -webkit-transform: skew(0, -6.7deg);
+    transform: skew(0, -6.7deg);
+    -moz-transition-property: font-size;
+    -o-transition-property: font-size;
+    -webkit-transition-property: font-size;
+    transition-property: font-size;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
