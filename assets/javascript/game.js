@@ -9,7 +9,7 @@ var songs = ["assets/music/bsb.mp3", "assets/music/nsync.mp3", "assets/music/han
 var winningImage = "";
 var winningSong = "";
 var wins = 0;
-var guessNumber = 12;
+var guessNumber = 10;
 var lettersGuessed = [];
 var solution = "";
 var game = "";
@@ -57,8 +57,8 @@ var gameOver = false;
         }
 
         updateGameState();
-
         return;
+
     } else {
         lettersGuessed.push(keyPressed);
         guessNumber--;
